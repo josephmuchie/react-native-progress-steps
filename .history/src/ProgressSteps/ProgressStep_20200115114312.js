@@ -122,7 +122,7 @@ ProgressStep.propTypes = {
 ProgressStep.defaultProps = {
   nextBtnText: 'Next',
   previousBtnText: 'Previous',
-  finishBtnText: 'Alright',
+  finishBtnText: 'Submit',
   nextBtnDisabled: false,
   previousBtnDisabled: false,
   errors: false
