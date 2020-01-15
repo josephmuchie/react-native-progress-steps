@@ -55,7 +55,7 @@ class ProgressSteps extends Component {
         justifyContent: 'space-evenly',
         alignSelf: 'center',
         flexDirection: 'row',
-        top: 20,
+        top: 30,
         marginBottom: 50
       }
     };

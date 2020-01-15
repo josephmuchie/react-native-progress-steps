@@ -55,13 +55,13 @@ class ProgressSteps extends Component {
         justifyContent: 'space-evenly',
         alignSelf: 'center',
         flexDirection: 'row',
-        top: 20,
+        top: 30,
         marginBottom: 50
       }
     };
 
     return (
-      <View style={{ flex: 0 }}>
+      <View style={{ flex: 1 }}>
         <View style={styles.stepIcons}>{this.renderStepIcons()}</View>
         <View style={{ flex: 1 }}>
           {React.cloneElement(this.props.children[this.state.activeStep], {
